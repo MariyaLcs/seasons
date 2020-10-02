@@ -19,7 +19,7 @@ class App extends React.Component {
         <div>
           <SeasonDisplay lat={this.state.latitude} />
           <br />
-          <h4>Latitude: {this.state.latitude} </h4>
+          {/* <h4>Latitude: {this.state.latitude} </h4> */}
         </div>
       );
     }
